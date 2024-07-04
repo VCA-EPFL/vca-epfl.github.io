@@ -1,3 +1,37 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://vca.epfl.ch"
+languageCode = "en-us"
+title = "VCA: Verification and Computer Architecture"
+theme="archie"
+copyright = "© VCA Lab, EPFL"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	mode="auto"
+	useCDN=false
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/vca-epfl"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "People"
+url = "/people"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
