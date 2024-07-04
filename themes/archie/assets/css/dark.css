@@ -4,7 +4,7 @@ body {
 }
 
 ::-moz-selection {
-  background: blue;
+  background: rebeccapurple;
   color: #fff;
   text-shadow: none;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted rebeccapurple;
 }
 code {
   background-color: lightblue;
@@ -31,7 +31,7 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: rebeccapurple;
 }
 
 h1,
@@ -109,7 +109,7 @@ a:hover {
 }
 .draft-label {
   color: var(--darkMaincolor);
-  background-color: blue;
+  background-color: rebeccapurple;
 }
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {

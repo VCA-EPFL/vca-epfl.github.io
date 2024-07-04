@@ -1,4 +1,4 @@
-/* Markdown */
+
 :root{
 --maincolor: red;
 --bordercl:rebeccapurple;
@@ -9,7 +9,7 @@
 html {
   color: #232333;
   font-family: 'Roboto Mono', monospace;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.6em;
 }
 body{
@@ -182,6 +182,13 @@ footer {
 .footer-info {
   padding: var(--footer-padding);
 }
+.footer-logo {
+    margin-left: auto;
+    border: none;
+}
+.footer-logo > img {
+    border: none;
+}
 
 /* Common */
 .title h1 {
@@ -330,4 +337,20 @@ table th{
 table td{
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+}
+
+.people-list {
+    display: grid;
+    grid-template-columns: repeat(4, 25% [col-start]);
+    grid-template-rows: repeat(4, auto [col-start]);
+}
+
+.people-element {
+    text-align: center;
+    border: 3px solid #ececec;
+    margin: 1em;
+}
+
+.people-role {
+    margin-top: 20px;
 }

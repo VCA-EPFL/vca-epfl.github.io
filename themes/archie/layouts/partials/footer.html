@@ -4,15 +4,12 @@
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
     <a class="border"></a>
     {{- end -}}
+    <div class="footer-info">
+      {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} {{ end }}
+    </div>
   </div>
-  <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+  <a class="footer-logo" href="https://www.epfl.ch/en/"><img src="/imgs/epfl-logo-new.svg" /></a>
 </footer>
-{{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics.html" . }}
-{{ end }}
 
 {{- if (isset .Site.Params "social") -}}
 <script>
