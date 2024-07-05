@@ -6,6 +6,7 @@ website = "https://people.csail.mit.edu/bthom/"
 [[people]]
 name = "Fabienne Ubezio"
 role = "Administrative Assistant"
+website = "https://people.epfl.ch/fabienne.ubezio"
 
 [[people]]
 name = "Yann Herklotz"
@@ -15,23 +16,29 @@ website = "https://yannherklotz.com"
 [[people]]
 name = "Jiawei Lin"
 role = "PhD Student"
+website = "https://people.epfl.ch/jiawei.lin"
 
 [[people]]
 name = "Martina Camaioni"
 role = "PhD Student"
+website = "https://people.epfl.ch/martina.camaioni"
 
 [[people]]
 name = "Alexandre Pinazza"
 role = "PhD Student"
+website = "https://people.epfl.ch/alexandre.pinazza"
 
 [[people]]
 name = "Tz-Ching Yu"
 role = "Masters Student"
+website = "https://people.epfl.ch/tz-ching.yu"
 
 [[people]]
 name = "Boran Xu"
 role = "Masters Student"
+website = "https://people.epfl.ch/boran.xu"
 
 [[people]]
 name = "Marguerite Benoist"
 role = "Masters Student"
+website = "https://people.epfl.ch/marguerite.benoist"

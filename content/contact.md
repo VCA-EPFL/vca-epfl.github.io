@@ -1,7 +1,9 @@
 +++
 title = "Contact"
-menu = "main"
+type = "contact"
 +++
+
+[Browse the directory](https://search.epfl.ch/?filter=unit&q=VCA).
 
 ### Address
 
@@ -12,6 +14,3 @@ BC 103 (Bâtiment BC)
 Station 14
 CH-1015 Lausanne
 ```
-
-
-- [Browse the directory](https://search.epfl.ch/?filter=unit&q=VCA).
