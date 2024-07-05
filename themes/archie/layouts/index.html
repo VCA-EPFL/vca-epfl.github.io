@@ -14,7 +14,7 @@
                 <section class="body">
                   {{ .Content }}
                 </section>
-                <h1>Blog</h1>
+                <!-- <h1>Blog</h1> -->
                 {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
                 {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
                 {{ range $paginator.Pages }}
