@@ -1,7 +1,6 @@
 +++
 title = "Lean Profiling"
 date = "2024-09-11"
-draft = true
 +++
 
 Lean has good support for profiling tactic scripts, with incrementally more information.  There are two different profilers in Lean, a general profiler called `profiler` and a newer profiler with more detailed information called `trace.profiler`.
@@ -60,6 +59,8 @@ lake env lean -Dtrace.profiler.output=profile.json -Dtrace.profiler.output.pp=tr
 Adding `lake env` before the command will ensure that the lean file can import other files in the project.  This produces a trace that can be view in the [firefox profiler view](https://profiler.firefox.com).
 
 ![](/imgs/lean-profiler.png)
+
+The profile can even be [uploaded and shared](https://share.firefox.dev/4glrFqn).
 
 ## `profiler`
 
