@@ -15,17 +15,17 @@
                   {{ .Content }}
                 </section>
                 <!-- <h1>Blog</h1> -->
-                {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-                {{ range $paginator.Pages }}
-                <section class="list-item">
-                    <h2 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h2>
-                    <time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-                    <br>{{ template "partials/pagedescription.html" . }}
-                    <a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
-                </section>
-                {{ end }}
-                {{ template "partials/paginator.html" . }}
+                <!-- {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }} -->
+                <!-- {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }} -->
+                <!-- {{ range $paginator.Pages }} -->
+                <!-- <section class="list-item"> -->
+                <!--     <h2 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h2> -->
+                <!--     <time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time> -->
+                <!--     <br>{{ template "partials/pagedescription.html" . }} -->
+                <!--     <a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a> -->
+                <!-- </section> -->
+                <!-- {{ end }} -->
+                <!-- {{ template "partials/paginator.html" . }} -->
             </main>
             {{ partial "footer.html" . }}
         </div>

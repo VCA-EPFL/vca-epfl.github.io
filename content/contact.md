@@ -7,6 +7,8 @@ type = "contact"
 
 ### Address
 
+{{< epfl-map room="BC 103" zoom="11" >}}
+
 ```
 Verification and Computer Architecture Lab
 EPFL IC IINFCOM VCA

@@ -1,18 +1,12 @@
 <footer>
   <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><img href="/icons/{{ $key.icon }}.svg" /></a>
     <a class="border"></a>
     {{- end -}}
     <div class="footer-info">
-      {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} {{ end }}
+      © {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} {{ end }}
     </div>
   </div>
   <a class="footer-logo" href="https://www.epfl.ch/en/"><img src="/imgs/epfl-logo-new.svg" /></a>
 </footer>
-
-{{- if (isset .Site.Params "social") -}}
-<script>
-  feather.replace()
-</script>
-{{- end -}}
