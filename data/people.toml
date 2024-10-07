@@ -14,14 +14,19 @@ role = "Postdoc"
 website = "https://yannherklotz.com"
 
 [[people]]
-name = "Jiawei Lin"
-role = "PhD Student"
-website = "https://people.epfl.ch/jiawei.lin"
-
-[[people]]
 name = "Martina Camaioni"
 role = "PhD Student"
 website = "https://people.epfl.ch/martina.camaioni"
+
+[[people]]
+name = "Guokai Chen"
+role = "PhD Student"
+website = "https://people.epfl.ch/guokai.chen"
+
+[[people]]
+name = "Jiawei Lin"
+role = "PhD Student"
+website = "https://people.epfl.ch/jiawei.lin"
 
 [[people]]
 name = "Alexandre Pinazza"
