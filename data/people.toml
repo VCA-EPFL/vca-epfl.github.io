@@ -37,6 +37,7 @@ website = "https://people.epfl.ch/alexandre.pinazza"
 name = "Tz-Ching Yu"
 role = "Masters Student"
 website = "https://people.epfl.ch/tz-ching.yu"
+inactive = true
 
 [[people]]
 name = "Boran Xu"
@@ -44,6 +45,17 @@ role = "Masters Student"
 website = "https://people.epfl.ch/boran.xu"
 
 [[people]]
+name = "Emma Gaia Poggiolini"
+role = "Masters Student"
+website = "https://people.epfl.ch/emma.poggiolini"
+
+[[people]]
+name = "Giorgio Ajmone"
+role = "Masters Student"
+website = "https://people.epfl.ch/giorgio.ajmone"
+
+[[people]]
 name = "Marguerite Benoist"
 role = "Masters Student"
 website = "https://people.epfl.ch/marguerite.benoist"
+inactive = true

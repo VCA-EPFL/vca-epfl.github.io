@@ -15,11 +15,27 @@
 
             <div class="people-list">
             {{ range $.Site.Data.people.people }}
+            {{ if not (isset . "inactive") }}
             <div class="people-element">
             <div class="people-photo"></div>
             <div class="people-name">{{ if .website }}<a href="{{ .website }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</div>
             <div class="people-role">{{ .role }}</div>
             </div>
+            {{ end }}
+            {{ end }}
+            </div>
+
+            <h2>Previous Members</h2>
+
+            <div class="people-list">
+            {{ range $.Site.Data.people.people }}
+            {{ if (isset . "inactive") }}
+            <div class="people-element">
+            <div class="people-photo"></div>
+            <div class="people-name">{{ if .website }}<a href="{{ .website }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</div>
+            <div class="people-role">{{ .role }}</div>
+            </div>
+            {{ end }}
             {{ end }}
             </div>
         </section>
