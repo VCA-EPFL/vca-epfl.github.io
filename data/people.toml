@@ -34,6 +34,16 @@ role = "PhD Student"
 website = "https://people.epfl.ch/alexandre.pinazza"
 
 [[people]]
+name = "Neelu Shivprakash Kalani"
+role = "PhD Student"
+website = "https://people.epfl.ch/neelu.kalani"
+
+[[people]]
+name = "Mohammadarman Soleimani"
+role = "PhD Student"
+website = "https://people.epfl.ch/mohammadarman.soleimani"
+
+[[people]]
 name = "Tz-Ching Yu"
 role = "Masters Student"
 website = "https://people.epfl.ch/tz-ching.yu"
@@ -42,6 +52,11 @@ website = "https://people.epfl.ch/tz-ching.yu"
 name = "Gurvan Debaussart"
 role = "Masters Student"
 website = "https://people.epfl.ch/gurvan.debaussart"
+
+[[people]]
+name = "Bodong Jia"
+role = "Masters Student"
+website = "https://people.epfl.ch/bodong.jia"
 
 [[people]]
 name = "Boran Xu"
