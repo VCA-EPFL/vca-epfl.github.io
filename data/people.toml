@@ -59,6 +59,16 @@ role = "Masters Student"
 website = "https://people.epfl.ch/bodong.jia"
 
 [[people]]
+name = "Hamza Remmal"
+role = "Masters Student"
+website = "https://people.epfl.ch/hamza.remmal"
+
+[[people]]
+name = "Rhea Mary Varghese"
+role = "Bachelor Student"
+website = "https://people.epfl.ch/rhea.varghese"
+
+[[people]]
 name = "Boran Xu"
 role = "Masters Student"
 website = "https://people.epfl.ch/boran.xu"
