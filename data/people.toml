@@ -54,6 +54,16 @@ role = "PhD Student"
 website = "https://people.epfl.ch/gurvan.debaussart"
 
 [[people]]
+name = "Lorenzo Padrini"
+role = "Masters Student"
+website = "https://people.epfl.ch/lorenzo.padrini"
+
+[[people]]
+name = "Maï-Linh Cordonnier"
+role = "Masters Student"
+website = "https://people.epfl.ch/mai-linh.cordonnier"
+
+[[people]]
 name = "Bodong Jia"
 role = "Masters Student"
 website = "https://people.epfl.ch/bodong.jia"
@@ -67,6 +77,7 @@ website = "https://people.epfl.ch/hamza.remmal"
 name = "Rhea Mary Varghese"
 role = "Bachelor Student"
 website = "https://people.epfl.ch/rhea.varghese"
+inactive = true
 
 [[people]]
 name = "Boran Xu"
