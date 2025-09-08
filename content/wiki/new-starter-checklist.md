@@ -10,7 +10,8 @@ date = "2025-09-08"
   - [ ] Add them to verification or architecture team.
 - [ ] Add the student to the [people.toml](https://github.com/VCA-EPFL/vca.epfl.ch/blob/main/data/people.toml) file
       for the website using the correct role.  Pushing to `main` will rebuild the website.
-- [ ] (Optional) Give them access to the server through SSH.
+- [ ] (Optional) Give them access to the server through SSH: Student should fill out the [server
+      form](https://docs.google.com/forms/d/e/1FAIpQLScjBFatekJ32YgmR0u5vw7vZ1JJ4TpyuZk6vElbBxl9AoraZg/viewform?usp=dialog).
 
 # Offboarding project students
 
