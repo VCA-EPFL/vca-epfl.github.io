@@ -354,3 +354,11 @@ table td{
 .people-role {
     margin-top: 20px;
 }
+
+dd {
+  margin-bottom: 15px;
+}
+
+dl {
+  margin: 30px 0;
+}
