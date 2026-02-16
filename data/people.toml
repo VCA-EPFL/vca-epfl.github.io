@@ -57,11 +57,13 @@ website = "https://people.epfl.ch/gurvan.debaussart"
 name = "Lorenzo Padrini"
 role = "Masters Student"
 website = "https://people.epfl.ch/lorenzo.padrini"
+inactive = true
 
 [[people]]
 name = "Maï-Linh Cordonnier"
 role = "Masters Student"
 website = "https://people.epfl.ch/mai-linh.cordonnier"
+inactive = true
 
 [[people]]
 name = "Daniel Bucher"
