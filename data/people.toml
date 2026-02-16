@@ -54,6 +54,11 @@ role = "PhD Student"
 website = "https://people.epfl.ch/gurvan.debaussart"
 
 [[people]]
+name = "Maëlys Bühler"
+role = "Masters Student"
+website = "https://people.epfl.ch/maelys.buhler"
+
+[[people]]
 name = "Lorenzo Padrini"
 role = "Masters Student"
 website = "https://people.epfl.ch/lorenzo.padrini"
