@@ -349,6 +349,12 @@ table td{
     text-align: center;
     border: 3px solid #ececec;
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.people-name {
+    flex-grow: 1;
 }
 
 .people-role {
