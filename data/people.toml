@@ -55,34 +55,34 @@ website = "https://people.epfl.ch/gurvan.debaussart"
 
 [[people]]
 name = "Maëlys Bühler"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/maelys.buhler"
 
 [[people]]
 name = "Lorenzo Padrini"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/lorenzo.padrini"
 inactive = true
 
 [[people]]
 name = "Maï-Linh Cordonnier"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/mai-linh.cordonnier"
 inactive = true
 
 [[people]]
 name = "Daniel Bucher"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/daniel.bucher"
 
 [[people]]
 name = "Bodong Jia"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/bodong.jia"
 
 [[people]]
 name = "Hamza Remmal"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/hamza.remmal"
 
 [[people]]
@@ -93,24 +93,29 @@ inactive = true
 
 [[people]]
 name = "Boran Xu"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/boran.xu"
 inactive = true
 
 [[people]]
 name = "Emma Gaia Poggiolini"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/emma.poggiolini"
 inactive = true
 
 [[people]]
 name = "Giorgio Ajmone"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/giorgio.ajmone"
 inactive = true
 
 [[people]]
 name = "Marguerite Benoist"
-role = "Masters Student"
+role = "Master's Student"
 website = "https://people.epfl.ch/marguerite.benoist"
 inactive = true
+
+[[people]]
+name = "Emily Kobler"
+role = "Master's Student"
+website = "https://people.epfl.ch/emily.kobler"
