@@ -74,16 +74,19 @@ inactive = true
 name = "Daniel Bucher"
 role = "Master's Student"
 website = "https://people.epfl.ch/daniel.bucher"
+inactive = true
 
 [[people]]
 name = "Bodong Jia"
 role = "Master's Student"
 website = "https://people.epfl.ch/bodong.jia"
+inactive = true
 
 [[people]]
 name = "Hamza Remmal"
 role = "Master's Student"
 website = "https://people.epfl.ch/hamza.remmal"
+inactive = true
 
 [[people]]
 name = "Rhea Mary Varghese"
