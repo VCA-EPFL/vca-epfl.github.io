@@ -54,6 +54,11 @@ role = "PhD Student"
 website = "https://people.epfl.ch/gurvan.debaussart"
 
 [[people]]
+name = "Victor Deng"
+role = "PhD Student"
+website = "https://www.victor-deng.fr/"
+
+[[people]]
 name = "Maëlys Bühler"
 role = "Master's Student"
 website = "https://people.epfl.ch/maelys.buhler"
