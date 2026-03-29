@@ -1,0 +1,27 @@
+# Extra BibTeX fields and exclusions for the publication list.
+# Papers are identified by their DBLP key (the path in dblp.org/rec/<key>).
+#
+# To find a paper's DBLP key: go to its DBLP page, the key is in the URL
+# and in the BibTeX export (e.g. conf/asplos/HerklotzECIJB26).
+
+# ── Exclude list ─────────────────────────────────────────────────────────────
+# DBLP keys of papers to omit from the generated papers.bib
+exclude = []
+
+# ── Extra fields ─────────────────────────────────────────────────────────────
+# Add custom BibTeX fields (pdf links, artefacts, slides, …) to specific papers.
+# These are passed through to bibtex2html via the Makefile's --named-field flags.
+
+[[fields]]
+dblp_key = "conf/asplos/HerklotzECIJB26"
+url_artefact = "https://github.com/vca-epfl/graphiti"
+url_manuscript = "/papers/asplos26_fvo.pdf"
+
+[[fields]]
+dblp_key = "conf/cpp/CamaioniHYB26"
+url_artefact = "https://zenodo.org/records/17805558"
+url_manuscript = "/papers/cpp26_tcp.pdf"
+
+[[fields]]
+dblp_key = "conf/uss/KalaniBHO25"
+url_manuscript = "https://www.usenix.org/system/files/usenixsecurity25-kalani.pdf"

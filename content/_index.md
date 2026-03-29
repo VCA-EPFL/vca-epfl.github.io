@@ -2,10 +2,15 @@
 title = "Verification and Computer Architecture"
 +++
 
-**VCA** is a lab at [EPFL](https://www.epfl.ch/en/) in the [School of Computer and Communication Sciences](https://www.epfl.ch/schools/ic/).  Our research lies at the intersection between programming languages and computer architecture.
+**VCA** is a lab at [EPFL](https://www.epfl.ch/en/) in the [School of Computer and Communication Sciences](https://www.epfl.ch/schools/ic/). Our research lies at the intersection of programming languages, formal methods, and computer architecture.
 
-We are interested in designing high-level hardware programming languages especially to ease hardware verification.  We leverage interactive theorem provers to reason about hardware, leading to more scalable and compositional proofs.
+Our primary focus is **hardware semantics and formal verification**. We develop precise mathematical models of hardware designs—from processors and dataflow circuits to cache coherence protocols—and use interactive theorem provers to prove their correctness. This includes compositional proof techniques for concurrent hardware modules and methods that make hardware verification more scalable and trustworthy.
 
-We also focus on building novel hardware architectures to support fine-grained and dynamic parallel computations.
+We also work on **interfacing hardware and software through precise specifications**. Modern systems rely on clean contracts between layers—ISA specifications, hypervisor interfaces, and firmware boundaries. We ensure that hardware faithfully implements its specifications and that system software can be verified against them, bridging architecture, programming languages, and operating systems research.
 
-We are actively recruiting PhD students and postdocs. If you are a prospective PhD student interested in this kind of research, please [apply](https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/).
+Finally, we develop **security verification** techniques for hardware, applying taint tracking and contract-based reasoning to detect information leakage and speculation vulnerabilities at the RTL level. 
+
+<!-- In general, we also actively seek-out places where verification opens new design freedom, for example, we recently leveraged verification to improve hardware performance in the context of safely enabling mixed-precision arithmetic in robotics accelerators. -->
+
+We also are working on the design of abstractions that are compatible with the necessities of today's compute stack, in particular we are developping abstractions for interconnecting accelerators and abstraction for rack-scale computers.
+

@@ -10,4 +10,4 @@ layouts/partials/%.html: %.bib | layouts/partials
         --named-field url_changelog changelog \
         --named-field url_blog_post blog --named-field \
         url_artefact artefact $<
-	sed -r -e 's:\[(.*)\]:<b>\1</b>:g' $@ >$@.new && mv $@.new $@
+	sed -r -e 's:\[(.*)\]:<b>\1</b>:g' -e '/<em>.*<br \/>$$/d' $@ >$@.new && mv $@.new $@

@@ -34,6 +34,11 @@ role = "PhD Student"
 website = "https://people.epfl.ch/alexandre.pinazza"
 
 [[people]]
+name = "Jiacheng Ma"
+role = "PhD Student"
+website = "https://people.epfl.ch/jiacheng.ma"
+
+[[people]]
 name = "Neelu Shivprakash Kalani"
 role = "PhD Student"
 website = "https://people.epfl.ch/neelu.kalani"
@@ -67,7 +72,6 @@ website = "https://people.epfl.ch/maelys.buhler"
 name = "Lorenzo Padrini"
 role = "Master's Student"
 website = "https://people.epfl.ch/lorenzo.padrini"
-inactive = true
 
 [[people]]
 name = "Maï-Linh Cordonnier"
@@ -115,7 +119,6 @@ inactive = true
 name = "Giorgio Ajmone"
 role = "Master's Student"
 website = "https://people.epfl.ch/giorgio.ajmone"
-inactive = true
 
 [[people]]
 name = "Marguerite Benoist"

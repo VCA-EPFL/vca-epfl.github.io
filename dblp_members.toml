@@ -1,0 +1,12 @@
+# Lab members whose DBLP pages are used to build the publication list.
+# Run `python3 update_papers.py` to regenerate papers.bib from these.
+#
+# To find a DBLP PID, search https://dblp.org/ for the person's name.
+# The PID is the number in their profile URL, e.g. https://dblp.org/pid/145/1652
+
+# Only include papers published from this year onwards (0 = no filter)
+start_year = 2024
+
+[[members]]
+name = "Thomas Bourgeat"
+pid = "145/1652"
