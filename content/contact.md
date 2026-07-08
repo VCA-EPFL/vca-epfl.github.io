@@ -7,12 +7,12 @@ type = "contact"
 
 ### Address
 
-{{< epfl-map room="BC 103" zoom="11" >}}
+{{< epfl-map room="INN 310" zoom="11" >}}
 
 ```
 Verification and Computer Architecture Lab
 EPFL IC IINFCOM VCA
-BC 103 (Bâtiment BC)
+INN 310 (Bâtiment INN)
 Station 14
 CH-1015 Lausanne
 ```
