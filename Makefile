@@ -1,3 +1,5 @@
+all: layouts/partials/papers.html
+
 layouts/partials:
 	mkdir -p $@
 

@@ -368,3 +368,19 @@ dd {
 dl {
   margin: 30px 0;
 }
+
+@media (max-width: 820px) {
+    .people-list {
+        display: grid;
+        grid-template-columns: repeat(2, 50% [col-start]);
+        grid-template-rows: repeat(2, auto [col-start]);
+    }
+}
+
+@media (max-width: 400px) {
+    .people-list {
+        display: grid;
+        grid-template-columns: repeat(1, 100% [col-start]);
+        grid-template-rows: repeat(1, auto [col-start]);
+    }
+}
