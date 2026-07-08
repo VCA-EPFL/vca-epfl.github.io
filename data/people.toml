@@ -62,16 +62,19 @@ website = "https://people.epfl.ch/gurvan.debaussart"
 name = "Victor Deng"
 role = "PhD Student"
 website = "https://www.victor-deng.fr/"
+inactive = true
 
 [[people]]
 name = "Maëlys Bühler"
 role = "Master's Student"
 website = "https://people.epfl.ch/maelys.buhler"
+inactive = true
 
 [[people]]
 name = "Lorenzo Padrini"
 role = "Master's Student"
 website = "https://people.epfl.ch/lorenzo.padrini"
+inactive = true
 
 [[people]]
 name = "Maï-Linh Cordonnier"
@@ -130,3 +133,8 @@ inactive = true
 name = "Emily Kobler"
 role = "Master's Student"
 website = "https://people.epfl.ch/emily.kobler"
+
+[[people]]
+name = "Myriam Ben Sayah"
+role = "Intern"
+website = "https://people.epfl.ch/myriam.bensayah"
