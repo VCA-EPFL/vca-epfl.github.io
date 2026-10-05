@@ -12,6 +12,7 @@ website = "https://people.epfl.ch/marisa.marcianowynn"
 name = "Yann Herklotz"
 role = "Postdoc"
 website = "https://yannherklotz.com"
+inactive = true
 
 [[people]]
 name = "Martina Camaioni"
